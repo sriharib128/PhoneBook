@@ -1,0 +1,28 @@
+DELETE http://localhost:3001/api/persons/1
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "srihari56",
+    "number": "123456"
+}
+
+###
+PUT http://localhost:3001/api/persons/66940c0eaa7accf6b7bd4a9f
+content-type: application/json
+
+{
+    "name": "srihari56",
+    "number": "123456789"
+}
+
+###
+GET http://localhost:3001/api/persons/
+
+###
+GET http://localhost:3001/api/persons/66940b31f9e44330b8c20cee
+
+###
+DELETE http://localhost:3001/api/persons/66940c0eaa7accf6b7bd4a9f
